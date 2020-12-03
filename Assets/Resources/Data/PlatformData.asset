@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316dc5b815605424381da315940d8c4e, type: 3}
+  m_Name: PlatformData
+  m_EditorClassIdentifier: 
+  _firstPlatformPosition: {x: 0, y: 0, z: 0}
+  _maxLongObstacles: 10
+  _maxBigObstacles: 20
+  _maxTowerObstacles: 20
+  _maxAimsOnPool: 80
+  _maxSmallObstacles: 20
+  _maxMiddleObstacle: 20
+  _maxPlatformOnScene: 4
+  _platformLength: 4
+  _distanceBetweenPlatforms: 10
+  _movePlatformDuration: 0.5
+  _probabilityOfBigSpawn: 10
+  _probabilityOfMiddleSpawn: 10
+  _probabilityOfSmallSpawn: 10
+  _probabilityOfLongSpawn: 10
+  _probabilityOfTowerSpawn: 10
+  _probabilityOfAimsOnPlatform: 10
+  _maxAimsOnPlatform: 5
